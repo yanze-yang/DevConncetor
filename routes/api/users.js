@@ -42,7 +42,7 @@ router.post(
       user = new User({
         name,
         email,
-        avatar: 'http://i.pravatar.cc/300',
+        avatar: 'https://avatars.dicebear.com/v2/jdenticon/developer.svg',
         password
       });
 
