@@ -1,9 +1,11 @@
 # Developer Connector
 
-## 📂 Reference
+Software developers can create and manage their profiles (including basic information, work experience, skills, etc.) by using this web application.
 
-[SchemaTypes in mongoose](https://mongoosejs.com/docs/schematypes.html#schematypes)
+Those profiles will be displayed to other users on a public page.
 
-[String.prototype.split() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split)
+👋 -> [Try the App](https://salty-reaches-74959.herokuapp.com/)
 
-[Array​.prototype​.indexOf()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf)# DevConncetor
+<p align="center">
+  <img height="300" src="images/project%20structure%20v2.0.png">
+</p>
