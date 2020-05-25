@@ -23,11 +23,12 @@ const Landing = ({ isAuthenticated }) => {
             other developers
         </h2>
           <div className='buttons'>
-            <Link to='/register' className="button is-link">
+            <Link to='/register' style={{padding: "20px"}}>
               Sign Up
             </Link>
-            <Link to='/login' className="button is-link">
-              Login
+
+            <Link to='/login' style={{padding: "10px 15px",borderRadius:"5px", color:"#fff",backgroundColor:"#606BFF"}}>
+              -> Login with the test account 😄
             </Link>
           </div>
       </div>
