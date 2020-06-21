@@ -1,4 +1,10 @@
 # Node.js with React
+- task: CopyPublishBuildArtifacts@1
+  inputs:
+    CopyRoot: '$(Build.ArtifactStagingDirectory)'
+    Contents: '$(Build.BuildId).zip'
+    ArtifactName: 'Copy and Publish Build Artifacts'
+    ArtifactType: 'Container'
 # Build a Node.js project that uses React.
 # Add steps that analyze code, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
